@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #2D3447#2D3447;" xmlns="http://javafx.com/javafx/8.0.999-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="BusApplication.Controller.DepartureController">
+   <children>
+      <Label layoutX="124.0" layoutY="35.0" text="SELECT DEPARTURE CITY" textFill="WHITE">
+         <font>
+            <Font name="Candara" size="33.0" />
+         </font>
+      </Label>
+      <Button fx:id="newYorkButton" layoutX="51.0" layoutY="111.0" mnemonicParsing="false" onAction="#newYorkDeparture" prefHeight="43.0" prefWidth="106.0" style="-fx-background-color: #45B4FE#45B4FE;" text="New York">
+         <font>
+            <Font name="Candara" size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="losAngelesButton" layoutX="174.0" layoutY="111.0" mnemonicParsing="false" onAction="#losAngelesDeparture" prefHeight="43.0" prefWidth="106.0" style="-fx-background-color: #45B4FE#45B4FE;" text="Los Angeles">
+         <font>
+            <Font name="Candara" size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="chicagoButton" layoutX="317.0" layoutY="111.0" mnemonicParsing="false" onAction="#chicagoDeparture" prefHeight="43.0" prefWidth="106.0" style="-fx-background-color: #45B4FE#45B4FE;" text="Chicago">
+         <font>
+            <Font name="Candara" size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="houstonButton" layoutX="440.0" layoutY="111.0" mnemonicParsing="false" onAction="#houstonDeparture" prefHeight="43.0" prefWidth="106.0" style="-fx-background-color: #45B4FE#45B4FE;" text="Houston">
+         <font>
+            <Font name="Candara" size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="phoenixButton" layoutX="51.0" layoutY="179.0" mnemonicParsing="false" onAction="#phoenixDeparture" prefHeight="43.0" prefWidth="106.0" style="-fx-background-color: #45B4FE#45B4FE;" text="Phoenix">
+         <font>
+            <Font name="Candara" size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="philadelphiaButton" layoutX="174.0" layoutY="179.0" mnemonicParsing="false" onAction="#philadelphiaDeparture" prefHeight="43.0" prefWidth="106.0" style="-fx-background-color: #45B4FE#45B4FE;" text="Philadelphia">
+         <font>
+            <Font name="Candara" size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="sanAntonioButton" layoutX="317.0" layoutY="179.0" mnemonicParsing="false" onAction="#sanAntonioDeparture" prefHeight="43.0" prefWidth="106.0" style="-fx-background-color: #45B4FE#45B4FE;" text="San Antonio">
+         <font>
+            <Font name="Candara" size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="sanDiegoButton" layoutX="440.0" layoutY="179.0" mnemonicParsing="false" onAction="#sanDiegoDeparture" prefHeight="43.0" prefWidth="106.0" style="-fx-background-color: #45B4FE#45B4FE;" text="San Diego">
+         <font>
+            <Font name="Candara" size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="dallasButton" layoutX="51.0" layoutY="247.0" mnemonicParsing="false" onAction="#dallasDeparture" prefHeight="43.0" prefWidth="106.0" style="-fx-background-color: #45B4FE#45B4FE;" text="Dallas">
+         <font>
+            <Font name="Candara" size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="sanJoseButton" layoutX="174.0" layoutY="247.0" mnemonicParsing="false" onAction="#sanJoseDeparture" prefHeight="43.0" prefWidth="106.0" style="-fx-background-color: #45B4FE#45B4FE;" text="San Jose">
+         <font>
+            <Font name="Candara" size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="austinButton" layoutX="317.0" layoutY="247.0" mnemonicParsing="false" onAction="#austinDeparture" prefHeight="43.0" prefWidth="106.0" style="-fx-background-color: #45B4FE#45B4FE;" text="Austin">
+         <font>
+            <Font name="Candara" size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="jacksonvilleButton" layoutX="440.0" layoutY="247.0" mnemonicParsing="false" onAction="#jacksonvilleDeparture" prefHeight="43.0" prefWidth="106.0" style="-fx-background-color: #45B4FE#45B4FE;" text="Jacksonville">
+         <font>
+            <Font name="Candara" size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="forthWorthButton" layoutX="51.0" layoutY="315.0" mnemonicParsing="false" onAction="#forthWorthDeparture" prefHeight="43.0" prefWidth="106.0" style="-fx-background-color: #45B4FE#45B4FE;" text="Fort Worth">
+         <font>
+            <Font name="Candara" size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="columbusButton" layoutX="174.0" layoutY="315.0" mnemonicParsing="false" onAction="#columbusDeparture" prefHeight="43.0" prefWidth="106.0" style="-fx-background-color: #45B4FE#45B4FE;" text="Columbus">
+         <font>
+            <Font name="Candara" size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="seattleButton" layoutX="317.0" layoutY="315.0" mnemonicParsing="false" onAction="#seattleDeparture" prefHeight="43.0" prefWidth="106.0" style="-fx-background-color: #45B4FE#45B4FE;" text="Seattle">
+         <font>
+            <Font name="Candara" size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="indianapolisButton" layoutX="440.0" layoutY="315.0" mnemonicParsing="false" onAction="#indianapolisDeparture" prefHeight="43.0" prefWidth="106.0" style="-fx-background-color: #45B4FE#45B4FE;" text="Indianapolis">
+         <font>
+            <Font name="Candara" size="16.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

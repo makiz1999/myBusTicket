@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #2D3447#2D3447;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="BusApplication.Controller.AustinController">
+    <children>
+        <Label layoutX="71.0" layoutY="31.0" text="Destination" textAlignment="RIGHT" textFill="WHITE">
+            <font>
+                <Font name="Candara" size="18.0" />
+            </font>
+        </Label>
+        <ComboBox fx:id="destinationChoice" layoutX="40.0" layoutY="61.0" prefWidth="150.0" />
+        <DatePicker fx:id="departureDate" layoutX="18.0" layoutY="159.0" />
+        <Label layoutX="56.0" layoutY="126.0" text="Departure Date" textAlignment="RIGHT" textFill="WHITE">
+            <font>
+                <Font name="Candara" size="18.0" />
+            </font>
+        </Label>
+        <TextField fx:id="firstName" layoutX="385.0" layoutY="61.0" />
+        <TextField fx:id="lastName" layoutX="385.0" layoutY="124.0" />
+        <TextField fx:id="phoneNumber" layoutX="385.0" layoutY="187.0" />
+        <Label layoutX="294.0" layoutY="64.0" text="First name:" textAlignment="RIGHT" textFill="WHITE">
+            <font>
+                <Font name="Candara" size="18.0" />
+            </font>
+        </Label>
+        <Label layoutX="295.0" layoutY="127.0" text="Last name:" textAlignment="RIGHT" textFill="WHITE">
+            <font>
+                <Font name="Candara" size="18.0" />
+            </font>
+        </Label>
+        <Label layoutX="261.0" layoutY="189.0" text="Phone number:" textAlignment="RIGHT" textFill="WHITE">
+            <font>
+                <Font name="Candara" size="18.0" />
+            </font>
+        </Label>
+        <Button fx:id="backButton" layoutX="27.0" layoutY="346.0" mnemonicParsing="false" onAction="#onBackButton" prefHeight="27.0" prefWidth="101.0" style="-fx-background-color: #45B4FE#45B4FE;" text="Back">
+            <font>
+                <Font name="Candara" size="17.0" />
+            </font>
+        </Button>
+        <Button fx:id="purchaseButton" layoutX="225.0" layoutY="334.0" mnemonicParsing="false" onAction="#onPurchaseButton" prefHeight="45.0" prefWidth="141.0" style="-fx-background-color: #45B4FE#45B4FE;" text="Purchase">
+            <font>
+                <Font size="19.0" />
+            </font>
+        </Button>
+        <Label layoutX="336.0" layoutY="252.0" text="Price:" textAlignment="RIGHT" textFill="WHITE">
+            <font>
+                <Font name="Candara" size="18.0" />
+            </font>
+        </Label>
+        <ComboBox fx:id="price" layoutX="385.0" layoutY="249.0" prefHeight="27.0" prefWidth="167.0" />
+    </children>
+</AnchorPane>
